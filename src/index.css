@@ -6,8 +6,69 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.card1{
+  width: 350px;
+  padding-top: 150px ;
+  background-color: #325ECD;
+}
+.foy{
+  background-color: white;
+  color: #325ECD;
+  margin-left: 60px;
+  font-size: 20px;
+  border-radius: 25px;
+  width: 300px;
+}
+.inp{
+  /* width: 700px;
+  border-radius: 30px;
+  border: 2px solid  rgba(0, 0, 255, 0.462) ; */
+
+  width: 700px;
+  margin-left: 50px;
+  margin-top: 20px;
+  background-color: #EAF0FF;
+  color: #4880FF;
+  outline: none;
+  border: none;
+  padding-left: 20px;
+  height: 45px;
+  border-radius: 25px;
+}
+.inp1{
+  width: 300px;
+  margin-top: 20px;
+  background-color: #EAF0FF;
+  color: #4880FF;
+  outline: none;
+  border: none;
+  padding-left: 20px;
+  height: 45px;
+  border-radius: 25px;
+}
+.btn1{
+  border-radius: 30px;
+}
+.tb{
+  margin-right: 100px;
+}
+.card{
+  width: 200px;
+  position: absolute;
+  right: -10px;
+  border-radius: 8px;
+  height: auto;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 9px rgba(112, 112, 112, 0.25);
+  cursor: pointer;
+}
+.blok{
+  position: relative;
+}
+.edit{
+  position: relative;
 }
